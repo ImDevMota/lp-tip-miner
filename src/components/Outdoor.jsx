@@ -4,7 +4,7 @@ import LogosBets from "../assets/logos-bets.png";
 
 function Outdoor() {
   return (
-    <section className="">
+    <section className="h-[116.7rem]">
       <div className="flex flex-col justify-center items-center">
         <div
           className="bg-cover bg-center bg-no-repeat h-[32rem] flex flex-col items-center mt-[5rem] relative"
@@ -12,7 +12,7 @@ function Outdoor() {
         >
           <img src={Logo} alt="" className="absolute top-[-2.2rem]" />
 
-          <div className="flex flex-col w-[84%]">
+          <div className="flex flex-col w-[85%]">
             <h2 className="text-white text-center mt-[24.8rem] leading-tight text-[24px] font-[600]">
               Você vai se tornar o pior pesadelo dos cassinos online,
             </h2>
@@ -54,8 +54,8 @@ function Outdoor() {
             <p className="text-[16px] font-[400] text-[white] text-center mt-[1.5rem]">
               Tenha em mãos o sistema exclusivo do TipMiner para dominar os
               resultados dos jogos online. Garanta seus ganhos de forma
-              automatizada com o nosso software de análise e estratégia
-              imbatível.
+              automatizada com o nosso software de <br />
+              análise e estratégia imbatível.
             </p>
           </div>
 
