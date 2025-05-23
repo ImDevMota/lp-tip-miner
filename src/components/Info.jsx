@@ -1,16 +1,17 @@
 import DadosImg from "../assets/dados.png";
 import CoinsImg from "../assets/coins.png";
 import LogosBets from "../assets/logos-bets.png";
+import ImgAvaliador1 from "../assets/avaliador-1.png";
 
 function Info() {
   return (
     <section className="mt-[4rem] flex justify-center items-center">
-      <div className="flex flex-col w-[85%]">
-        <h2 className="text-white text-[24px] font-[700] text-center">
+      <div className="flex flex-col justify-center items-center">
+        <h2 className="text-white w-[85%] text-[24px] font-[700] text-center">
           Como o Tipminer funciona?
         </h2>
 
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center w-[85%] items-center">
           <div className="p-[0.8px] bg-gradient-to-l from-[#5E718A] to-[#161036] rounded-2xl w-[22rem] mt-[7rem]">
             <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] px-[1.5rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
               <img
@@ -58,51 +59,107 @@ function Info() {
 
         <img src={LogosBets} alt="" className="mt-[4rem]" />
 
-        <div>
-          <div>
-            <h3></h3>
-            <p></p>
+        <div className="w-[85%] flex flex-row justify-center items-center relative">
+          <div className="absolute left-[19rem] top-0 h-full w-[4rem] bg-gradient-to-r from-transparent to-[#080126]/90 z-10 pointer-events-none" />
+          <div className="absolute right-[19rem] top-0 h-full w-[4rem] bg-gradient-to-l from-transparent to-[#080126]/90 z-10 pointer-events-none" />
 
-            <div>
-              <img src="" alt="" />
+          <div className="p-[1px] bg-gradient-to-b from-[#3d3561] to-[#100a2e] absolute left-[19rem] rounded-2xl w-[15.5rem] mt-[4rem]">
+            <div className="bg-[#100a2e]/70 backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col">
+                <p className="text-white text-[13px] font-[600]">
+                  "Mudou minha abordagem...”
+                </p>
+                <p className="text-white text-[13px] font-[300] mt-[0.8rem]">
+                  "O TipMiner mudou <br />
+                  completamente minha abordagem <br />
+                  nos jogos online. Agora, faço <br />
+                  apostas baseadas em análise de <br />
+                  dados e vejo uma grande diferença <br />
+                  nos meus resultados."
+                </p>
 
-              <div>
-                <p></p>
-                <p></p>
+                <div className="flex flex-row mt-[1.5rem]">
+                  <img
+                    src={ImgAvaliador1}
+                    alt=""
+                    className="w-[2.2rem] h-[2.2rem]"
+                  />
+
+                  <div className="flex flex-col items-start justify-center ml-[0.5rem]">
+                    <p className="text-[9.5px] font-[600]">João Carlos</p>
+                    <p className="text-[7px] font-[300]">@João Carlos</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <h3></h3>
-            <p></p>
+          <div className="p-[1px] bg-gradient-to-b from-[#3d3561] to-[#100a2e] rounded-2xl w-[15.5rem] mt-[4rem]">
+            <div className="bg-[#100a2e]/70 backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col">
+                <p className="text-white text-[13px] font-[600]">
+                  "Mudou minha abordagem...”
+                </p>
+                <p className="text-white text-[13px] font-[300] mt-[0.8rem]">
+                  "O TipMiner mudou <br />
+                  completamente minha abordagem <br />
+                  nos jogos online. Agora, faço <br />
+                  apostas baseadas em análise de <br />
+                  dados e vejo uma grande diferença <br />
+                  nos meus resultados."
+                </p>
 
-            <div>
-              <img src="" alt="" />
+                <div className="flex flex-row mt-[1.5rem]">
+                  <img
+                    src={ImgAvaliador1}
+                    alt=""
+                    className="w-[2.2rem] h-[2.2rem]"
+                  />
 
-              <div>
-                <p></p>
-                <p></p>
+                  <div className="flex flex-col items-start justify-center ml-[0.5rem]">
+                    <p className="text-[9.5px] font-[600]">João Carlos</p>
+                    <p className="text-[7px] font-[300]">@João Carlos</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div>
-            <h3></h3>
-            <p></p>
+          <div className="p-[1px] bg-gradient-to-b from-[#3d3561] to-[#100a2e] absolute right-[19rem] rounded-2xl w-[15.5rem] mt-[4rem]">
+            <div className="bg-[#100a2e]/70 backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col">
+                <p className="text-white text-[13px] font-[600]">
+                  "Mudou minha abordagem...”
+                </p>
+                <p className="text-white text-[13px] font-[300] mt-[0.8rem]">
+                  "O TipMiner mudou <br />
+                  completamente minha abordagem <br />
+                  nos jogos online. Agora, faço <br />
+                  apostas baseadas em análise de <br />
+                  dados e vejo uma grande diferença <br />
+                  nos meus resultados."
+                </p>
 
-            <div>
-              <img src="" alt="" />
+                <div className="flex flex-row mt-[1.5rem]">
+                  <img
+                    src={ImgAvaliador1}
+                    alt=""
+                    className="w-[2.2rem] h-[2.2rem]"
+                  />
 
-              <div>
-                <p></p>
-                <p></p>
+                  <div className="flex flex-col items-start justify-center ml-[0.5rem]">
+                    <p className="text-[9.5px] font-[600]">João Carlos</p>
+                    <p className="text-[7px] font-[300]">@João Carlos</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <button></button>
+        <a className="text-[white] mt-[2.5rem] text-[14px] px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+          Quero aumentar meus lucros com o TipMiner
+        </a>
       </div>
     </section>
   );

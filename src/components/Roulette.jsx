@@ -23,9 +23,7 @@ function Roulette() {
 
           <div className="flex flex-row items-center mt-[5rem] absolute w-[100%] left-0 top-[13rem] justify-between overflow-hidden">
             <div className="absolute left-0 top-0 h-full w-32 bg-gradient-to-r from-[#080126]/80 to-transparent z-10 pointer-events-none" />
-
             <div className="absolute right-0 top-0 h-full w-32 bg-gradient-to-l from-[#080126]/80 to-transparent z-10 pointer-events-none" />
-
             <img src={ImgRoulette1} alt="" className="w-[1.5rem] h-[5.5rem] " />
             <img
               src={ImgRoulette2}
