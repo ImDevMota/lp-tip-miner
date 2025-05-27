@@ -14,8 +14,12 @@ function Differentials() {
         </h2>
 
         <div className="flex flex-col items-center justify-center mt-[2rem] gap-y-[1rem]">
-          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem]">
-            <div className="bg-[#100a2e]/90 h-[12.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem] overflow-hidden">
+            <div className="bg-[#100a2e]/90 h-[13.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col absolute top-[-0.1rem] left-[1rem] h-[0.8rem] items-center">
+                <div class="w-[2.5rem] h-0.5 bg-[#02C1E3]"></div>
+                <div class="absolute top-[-1.2rem] left-0 w-[2.35rem] h-[2.35rem] bg-[#02C1E3] rounded-full blur-[0.6rem] opacity-25"></div>
+              </div>
               <div className="flex flex-col w-[82%] h-[12.3rem] justify-center">
                 <div className="flex rounded-full w-fit border-[0.12rem] border-[#FFFFFF4D]">
                   <img src={CompassImg} alt="" className="w-[38px] h-[38px]" />
@@ -31,9 +35,14 @@ function Differentials() {
             </div>
           </div>
 
-          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem]">
-            <div className="bg-[#100a2e]/90 h-[12.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
-              <div className="flex flex-col h-[12.3rem] justify-center">
+          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem] overflow-hidden">
+            <div className="bg-[#100a2e]/90 h-[13.5rem] backdrop-blur-md py-[1rem] relative items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col absolute top-[-0.1rem] left-[1rem] h-[0.8rem] items-center">
+                <div class="w-[2.5rem] h-0.5 bg-[#02C1E3]"></div>
+                <div class="absolute top-[-1.2rem] left-0 w-[2.35rem] h-[2.35rem] bg-[#02C1E3] rounded-full blur-[0.6rem] opacity-25"></div>
+              </div>
+
+              <div className="flex flex-col h-[12.3rem] justify-center relative">
                 <div className="flex rounded-full w-fit p-[0.62rem] border-[0.12rem] border-[#FFFFFF4D]">
                   <img
                     src={DatabaseImg}
@@ -53,8 +62,12 @@ function Differentials() {
             </div>
           </div>
 
-          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem]">
-            <div className="bg-[#100a2e]/90 h-[12.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem] overflow-hidden">
+            <div className="bg-[#100a2e]/90 h-[13.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col absolute top-[-0.1rem] left-[1rem] h-[0.8rem] items-center">
+                <div class="w-[2.5rem] h-0.5 bg-[#02C1E3]"></div>
+                <div class="absolute top-[-1.2rem] left-0 w-[2.35rem] h-[2.35rem] bg-[#02C1E3] rounded-full blur-[0.6rem] opacity-25"></div>
+              </div>
               <div className="flex flex-col w-[82%] h-[12.3rem] justify-center">
                 <div className="flex rounded-full w-fit p-[0.5rem] border-[0.12rem] border-[#FFFFFF4D]">
                   <LaptopMinimalCheck size={23} className="text-[#02C1E3]" />
@@ -71,8 +84,12 @@ function Differentials() {
             </div>
           </div>
 
-          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem]">
-            <div className="bg-[#100a2e]/90 h-[12.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+          <div className="p-[1px] bg-[#FFFFFF4D] rounded-2xl w-[20.7rem] overflow-hidden">
+            <div className="bg-[#100a2e]/90 h-[13.5rem] backdrop-blur-md py-[1rem] items-center justify-center rounded-2xl text-[white] flex flex-col">
+              <div className="flex flex-col absolute top-[-0.1rem] left-[1rem] h-[0.8rem] items-center">
+                <div class="w-[2.5rem] h-0.5 bg-[#02C1E3]"></div>
+                <div class="absolute top-[-1.2rem] left-0 w-[2.35rem] h-[2.35rem] bg-[#02C1E3] rounded-full blur-[0.6rem] opacity-25"></div>
+              </div>
               <div className="flex flex-col w-[82%] h-[12.3rem] justify-center">
                 <div className="flex rounded-full w-fit p-[0.5rem] border-[0.12rem] border-[#FFFFFF4D]">
                   <img src={RunImg} alt="" className="w-[24px] h-[24px]" />
@@ -93,9 +110,9 @@ function Differentials() {
         <a className="text-[white] mt-[1rem] text-[14px] px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
           Quero aumentar meus lucros com o TipMiner
         </a>
-      </div>
 
-      <img src={Elipse2Img} alt="" className="absolute bottom-2" />
+        <img src={Elipse2Img} alt="" className="absolute left-0 bottom-2" />
+      </div>
     </section>
   );
 }
