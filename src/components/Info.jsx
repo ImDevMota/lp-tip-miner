@@ -14,8 +14,8 @@ function Info() {
         </h2>
 
         <div className="flex flex-col justify-center w-[85%] items-center">
-          <div className="p-[0.8px] bg-gradient-to-l from-[#5E718A] to-[#161036] rounded-2xl w-[22rem] mt-[7rem]">
-            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] px-[1.5rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
+          <div className="p-[0.8px] bg-gradient-to-l from-[#5E718A] to-[#161036] rounded-2xl w-[100%] mt-[7rem]">
+            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
               <img
                 src={DadosImg}
                 alt=""
@@ -34,8 +34,8 @@ function Info() {
             </div>
           </div>
 
-          <div className="p-[0.8px] bg-gradient-to-r from-[#5E718A] to-[#161036] rounded-2xl w-[22rem] mt-[3.9rem]">
-            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] px-[1.5rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
+          <div className="p-[0.8px] bg-gradient-to-r from-[#5E718A] to-[#161036] rounded-2xl w-[100%] mt-[3.9rem]">
+            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
               <img
                 src={CoinsImg}
                 alt=""

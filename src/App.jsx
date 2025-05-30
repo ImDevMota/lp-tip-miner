@@ -3,6 +3,7 @@ import Roulette from "./components/Roulette";
 import Info from "./components/Info";
 import Features from "./components/Features";
 import Differentials from "./components/Differentials";
+import Plans from "./components/Plans";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Features />
 
       <Differentials />
+
+      <Plans />
     </>
   );
 }

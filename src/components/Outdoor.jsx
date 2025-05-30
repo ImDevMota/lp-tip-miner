@@ -65,8 +65,8 @@ function Outdoor() {
 
           <img src={LogosBets} alt="" className="mt-[4rem]" />
 
-          <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#100a2e] rounded-2xl w-[22rem] mt-[4rem]">
-            <div className="bg-[#100a2e] backdrop-blur-md py-[3rem] px-[1.5rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
+          <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#100a2e] rounded-2xl w-[85%] mt-[4rem]">
+            <div className="bg-[#100a2e] backdrop-blur-md py-[3rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
               <h2 className="font-[600] text-[32px]">
                 Por que entrar <br />
                 no tipminer?
