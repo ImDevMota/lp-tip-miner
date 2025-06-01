@@ -30,22 +30,28 @@ function Plans() {
           sua paixão em vitórias.
         </p>
 
-        <div>
-          <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#261f44] rounded-2xl w-[100%] mt-[1rem]">
-            <div className="bg-[#100a2e] backdrop-blur-md py-[3.3rem] px-[1.6rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
-              <h3 className="text-white font-[700] text-[24px]">
-                Plano Silver
-              </h3>
-              <p className="text-white font-[500] text-[12px]">
-                Acesso por 30 dias
-              </p>
+        <div className="flex flex-col">
+          <div className="p-[0.8px] overflow-hidden bg-gradient-to-b from-[#ffffff60] to-[#100a2e] rounded-xl w-[100%] mt-[4rem]">
+            <div className="bg-[#100a2e] backdrop-blur-md py-[3.3rem] px-[1.6rem] rounded-xl text-[white] text-center flex flex-col justify-center items-center">
+              <div class="absolute top-[-2.5rem] w-[95%] h-[8.35rem] bg-[#dfdee4] rounded-full blur-[3.7rem] opacity-15"></div>
 
-              <h2 className="text-white font-[700] text-[54px]">R$ 49,90</h2>
-              <p className="text-white font-[300] text-[15px]">
-                *Assinatura renovada automaticamente
-              </p>
+              <div className="flex flex-col">
+                <h3 className="text-white font-[700] text-[24px]">
+                  Plano Silver
+                </h3>
+                <p className="text-white font-[500] text-[12px] mt-[-0.4rem]">
+                  Acesso por 30 dias
+                </p>
+              </div>
 
-              <div className="flex flex-col mt-[3rem] items-start w-[100%]">
+              <div className="flex flex-col mt-[1.6rem] items-start">
+                <h2 className="text-white font-[700] text-[54px]">R$ 49,90</h2>
+                <p className="text-white font-[300] text-[15px]">
+                  *Assinatura renovada automaticamente
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-[3rem] items-start w-[100%] ml-[1.9rem]">
                 <div className="flex flex-row items-center gap-x-[0.5rem]">
                   <Check className="text-[#02C1E3]" />
                   <p className="font-[400] text-[15px]">
@@ -85,96 +91,129 @@ function Plans() {
             </div>
           </div>
 
-          <div>
-            <h3></h3>
-            <p></p>
+          <div className="p-[0.8px] overflow-hidden bg-gradient-to-b from-[#ffffff60] to-[#100a2e] rounded-xl w-[100%] mt-[4rem]">
+            <div className="bg-[#100a2e] backdrop-blur-md py-[3.3rem] px-[1.6rem] rounded-xl text-[white] text-center flex flex-col justify-center items-center">
+              <div class="absolute top-[-2.5rem] w-[95%] h-[8.35rem] bg-[#dfdee4] rounded-full blur-[3.7rem] opacity-15"></div>
 
-            <h2></h2>
-            <p></p>
-
-            <div>
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
+              <div className="flex flex-col">
+                <h3 className="text-white font-[700] text-[24px]">
+                  Plano Gold
+                </h3>
+                <p className="text-white font-[500] text-[12px] mt-[-0.4rem]">
+                  Acesso por 30 dias
+                </p>
               </div>
 
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
+              <div className="flex flex-col mt-[1.6rem] items-start">
+                <h2 className="text-white font-[700] text-[54px]">R$ 59,90</h2>
+                <p className="text-white font-[300] text-[15px]">
+                  *Assinatura renovada automaticamente
+                </p>
               </div>
 
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
+              <div className="flex flex-col mt-[3rem] items-start w-[100%] ml-[1.9rem]">
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">
+                    Visualização de 20 mil rodadas
+                  </p>
+                </div>
 
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">
+                    Cores por hora e/ou dias
+                  </p>
+                </div>
 
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">Modo analítico</p>
+                </div>
 
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
-            </div>
-          </div>
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">
+                    Validador e notificador sem limites
+                  </p>
+                </div>
 
-          <div>
-            <h3></h3>
-            <p></p>
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">Sem anúncios</p>
+                </div>
 
-            <h2></h2>
-            <p></p>
-
-            <div>
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
-
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
-
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
-
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
-
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
-              </div>
-
-              <div>
-                <Check className="text-[#02C1E3]" />
-                <p></p>
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">5 Bots de sinais</p>
+                </div>
               </div>
             </div>
           </div>
 
-          <button></button>
-        </div>
+          <div className="p-[0.8px] overflow-hidden bg-gradient-to-b from-[#ffffff60] to-[#100a2e] rounded-xl w-[100%] mt-[4rem]">
+            <div className="bg-[#100a2e] backdrop-blur-md py-[3.3rem] px-[1.6rem] rounded-xl text-[white] text-center flex flex-col justify-center items-center">
+              <div class="absolute top-[-2.5rem] w-[95%] h-[8.35rem] bg-[#dfdee4] rounded-full blur-[3.7rem] opacity-15"></div>
 
-        <div>
-          <Check className="text-[#02C1E3]" />
+              <div className="flex flex-col">
+                <h3 className="text-white font-[700] text-[24px]">
+                  Plano Platinum
+                </h3>
+                <p className="text-white font-[500] text-[12px] mt-[-0.4rem]">
+                  Acesso por 30 dias
+                </p>
+              </div>
 
-          <div>
-            <p></p>
-            <p></p>
+              <div className="flex flex-col mt-[1.6rem] items-start">
+                <h2 className="text-white font-[700] text-[54px]">R$ 89,90</h2>
+                <p className="text-white font-[300] text-[15px]">
+                  *Assinatura renovada automaticamente
+                </p>
+              </div>
+
+              <div className="flex flex-col mt-[3rem] items-start w-[100%] ml-[1.9rem]">
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">
+                    Visualização de 20 mil rodadas
+                  </p>
+                </div>
+
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">
+                    Cores por hora e/ou dias
+                  </p>
+                </div>
+
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">Modo analítico</p>
+                </div>
+
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">
+                    Validador e notificador sem limites
+                  </p>
+                </div>
+
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">Sem anúncios</p>
+                </div>
+
+                <div className="flex flex-row items-center gap-x-[0.5rem]">
+                  <Check className="text-[#02C1E3]" />
+                  <p className="font-[400] text-[15px]">5 Bots de sinais</p>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <a className="text-[white] mt-[2rem] text-[14px] px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+            Quero aumentar meus lucros com o TipMiner
+          </a>
         </div>
       </div>
     </section>
