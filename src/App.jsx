@@ -4,6 +4,8 @@ import Info from "./components/Info";
 import Features from "./components/Features";
 import Differentials from "./components/Differentials";
 import Plans from "./components/Plans";
+import Seal from "./components/Seal";
+import Questions from "./components/Questions";
 
 function App() {
   return (
@@ -19,6 +21,10 @@ function App() {
       <Differentials />
 
       <Plans />
+
+      <Seal />
+
+      <Questions />
     </>
   );
 }
