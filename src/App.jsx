@@ -6,6 +6,7 @@ import Differentials from "./components/Differentials";
 import Plans from "./components/Plans";
 import Seal from "./components/Seal";
 import Questions from "./components/Questions";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <Seal />
 
       <Questions />
+
+      <Footer />
     </>
   );
 }
