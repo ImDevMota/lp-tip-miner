@@ -4,7 +4,11 @@ function Questions() {
   return (
     <section className="flex justify-center items-center relative mt-[2rem] mb-[3.5rem]">
       <div className="flex flex-col w-[85%] justify-center items-center">
-        <img src={Elipse1Img} alt="" className="absolute top-0 left-0" />
+        <img
+          src={Elipse1Img}
+          alt=""
+          className="absolute top-0 left-0 w-[100%]"
+        />
 
         <h2 className="text-[32px] mt-[3rem] font-[700] text-center bg-gradient-to-r from-[#04B6E4] to-[#053DE7] bg-clip-text text-transparent">
           FAQ - Perguntas <br />

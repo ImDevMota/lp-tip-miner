@@ -4,7 +4,7 @@ function Seal() {
   return (
     <section className="flex justify-center items-center mt-[5rem]">
       <div className="flex flex-col w-[85%] justify-center items-center">
-        <div className="flex flex-col">
+        <div className="flex flex-col justify-center items-center">
           <img src={SeloImg} alt="" className="w-[19rem]" />
 
           <p className="text-white text-[14px] font-[400] text-center mt-[1.7rem]">

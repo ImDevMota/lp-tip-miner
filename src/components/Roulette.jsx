@@ -11,10 +11,10 @@ function Roulette() {
   return (
     <section className="mt-[2rem]">
       <div className="flex flex-col justify-center items-center relative">
-        <img src={Elipse1Img} alt="" className="absolute top-0" />
+        <img src={Elipse1Img} alt="" className="absolute top-0 w-[100%]" />
 
         <div className="flex flex-col mt-[5rem] w-[85%]">
-          <h2 className="text-white font-[700] text-[23px] text-center">
+          <h2 className="text-white font-[700] text-[21px] text-center">
             A TipMiner analisa milhões de <br />
             resultados e padrões de jogos, <br />
             oferecendo a você estratégias <br />
