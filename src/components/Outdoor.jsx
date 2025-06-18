@@ -1,31 +1,42 @@
 import Logo from "../assets/logo-tip-miner.svg";
+import LogoDk from "../assets/logo-tip-miner-desktop.svg";
 import OutdoorBg from "../assets/outdoor-tip-miner.png";
+import OutdoorBgDk from "../assets/outdoor-tip-miner-desktop.png";
 import LogosBets from "../assets/logos-bets.png";
+import LogosBetsDk from "../assets/logos-bets-desktop.png";
 
 function Outdoor() {
   return (
     <section className="relative">
       <div className="flex flex-col justify-center items-center">
         <div
-          className="absolute top-0 left-0 w-full h-[35rem] mt-[5rem] bg-cover bg-center z-0"
+          className="block sm:hidden absolute top-0 left-0 w-full h-[35rem] mt-[5rem] bg-cover bg-center z-0"
           style={{ backgroundImage: `url(${OutdoorBg})` }}
         />
 
-        <div className="relative z-10 flex flex-col items-center mt-[3rem]">
-          {/* Imagem não precisa ser absolute — apenas ajustada no layout */}
-          <img src={Logo} alt="Logo" className="" />
+        <div
+          className="sm:block absolute top-0 left-0 w-full h-[75rem] bg-cover bg-center z-0 hidden"
+          style={{ backgroundImage: `url(${OutdoorBgDk})` }}
+        />
 
-          <div className="flex flex-col w-[85%] mt-[25.8rem]">
-            <h2 className="text-white text-center leading-tight text-[24px] font-[600]">
-              Você vai se tornar o pior pesadelo dos cassinos online,{" "}
-              <span className="text-[23px] font-[600] text-center leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#03BDE3] to-[#0515E7]">
+        <div className="relative z-10 flex sm:w-[80%] flex-col sm:items-start items-center mt-[3rem] sm:mt-[5rem]">
+          {/* Imagem não precisa ser absolute — apenas ajustada no layout */}
+
+          <img src={Logo} alt="Logo" className="sm:hidden" />
+          <img src={LogoDk} alt="Logo" className="sm:block hidden" />
+
+          <div className="flex flex-col sm:w-[40%] w-[85%] mt-[25.8rem] sm:mt-[9rem]">
+            <h2 className="text-white text-center sm:text-start leading-tight text-[24px] sm:text-[44px] font-[600]">
+              Você vai se tornar o pior <br className="hidden sm:block" />{" "}
+              pesadelo dos cassinos online,{" "}
+              <span className="text-[23px] sm:text-[44px] font-[600] text-center leading-tight text-transparent bg-clip-text bg-gradient-to-r from-[#03BDE3] to-[#0515E7]">
                 enchendo o bolso de dinheiro
               </span>
             </h2>
 
-            <div className="flex flex-row justify-center mt-[2rem]">
+            <div className="flex flex-row justify-center sm:justify-start mt-[2rem]">
               <p
-                className="text-transparent bg-clip-text font-[600] text-[22px] mr-[1.5rem]"
+                className="text-transparent bg-clip-text font-[600] text-[22px] sm:ml-[1rem] sm:text-[32px] mr-[1.5rem]"
                 style={{
                   backgroundImage:
                     "linear-gradient(to left, #1CC47E 0%, #6BFF53 50%, #1CC47E 100%)",
@@ -34,7 +45,7 @@ function Outdoor() {
                 *
               </p>
               <p
-                className="bg-clip-text text-transparent tracking-wide font-[600] text-[14px] mt-[0.18rem] text-center"
+                className="bg-clip-text text-transparent tracking-wide font-[600] text-[14px] sm:text-[24px] mt-[0.18rem] text-center"
                 style={{
                   backgroundImage:
                     "linear-gradient(to left, #1CC47E 0%, #6BFF53 50%, #1CC47E 100%)",
@@ -43,7 +54,7 @@ function Outdoor() {
                 Chega de depender apenas da sorte!
               </p>
               <p
-                className="text-transparent bg-clip-text font-[600] text-[22px] ml-[1.5rem]"
+                className="text-transparent bg-clip-text font-[600] text-[22px] sm:text-[32px] ml-[1.5rem]"
                 style={{
                   backgroundImage:
                     "linear-gradient(to left, #1CC47E 0%, #6BFF53 50%, #1CC47E 100%)",
@@ -53,21 +64,33 @@ function Outdoor() {
               </p>
             </div>
 
-            <p className="text-[16px] font-[400] text-[white] text-center mt-[1.5rem]">
-              Tenha em mãos o sistema exclusivo do TipMiner para dominar os
-              resultados dos jogos online. Garanta seus ganhos de forma
-              automatizada com o nosso software de análise e estratégia
-              imbatível.
+            <p className="text-[16px] font-[400] text-[white] sm:text-[20px] sm:text-start text-center mt-[1.5rem]">
+              Tenha em mãos o sistema exclusivo do TipMiner para{" "}
+              <br className="hidden sm:block" /> dominar os resultados dos jogos
+              online. Garanta seus <br className="hidden sm:block" />
+              ganhos de forma automatizada com o nosso software{" "}
+              <br className="hidden sm:block" />
+              de análise e estratégia imbatível.
             </p>
           </div>
 
           {/* Botão */}
-          <a className="text-[white] mt-[2.5rem] text-[14px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+          <a className="text-[white] mt-[2.5rem] text-[14px] sm:w-[32%] sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
             Quero aumentar meus lucros com o TipMiner
           </a>
 
           {/* Imagem de marcas/parceiros */}
-          <img src={LogosBets} alt="Parceiros" className="mt-[4rem] w-full" />
+          <img
+            src={LogosBets}
+            alt="Parceiros"
+            className="mt-[4rem] w-full block sm:hidden"
+          />
+
+          <img
+            src={LogosBetsDk}
+            alt="Parceiros"
+            className="mt-[15rem] hidden sm:block"
+          />
 
           {/* Bloco informativo */}
           <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#100a2e] rounded-2xl w-[85%] mt-[4rem]">
