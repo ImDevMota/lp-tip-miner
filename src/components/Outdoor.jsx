@@ -79,7 +79,7 @@ function Outdoor() {
           </div>
 
           {/* Botão */}
-          <a className="text-[white] mt-[2.5rem] text-[14px] sm:self-start sm:w-[30.5rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+          <a className="text-[white] mt-[2.5rem] text-[14px] sm:self-start sm:w-[32.35rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
             Quero aumentar meus lucros com o TipMiner
           </a>
 
@@ -90,7 +90,7 @@ function Outdoor() {
             className="mt-[4rem] w-full block sm:hidden"
           />
 
-          <div className="relative w-full h-[10rem] flex justify-center items-center top-[10rem]">
+          <div className="relative w-full h-[10rem] hidden sm:block justify-center items-center top-[10rem]">
             {/* Imagem central */}
             <img
               src={LogosBetsDk}
@@ -136,16 +136,17 @@ function Outdoor() {
           </div>
 
           {/* Chamada final */}
-          <div className="flex flex-col w-[85%] sm:items-center">
+          <div className="flex flex-col w-[85%] items-center">
             <p className="font-[700] text-center text-white text-[16px] sm:text-[24px] mt-[5rem]">
               Quer ganhar de verdade nos jogos online?
             </p>
 
             <h2 className="text-[28px] mt-[1.5rem] sm:mt-[1rem] font-[700] text-center sm:text-[48px] text-transparent bg-clip-text bg-gradient-to-r from-[#03BDE3] to-[#0515E7]">
-              TipMiner é a sua ferramenta essencial.
+              TipMiner é a sua <br className="block sm:hidden" />
+              ferramenta essencial.
             </h2>
 
-            <a className="text-[white] mt-[2.5rem] sm:mt-[3rem] text-[14px] sm:w-[30.5rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+            <a className="text-[white] mt-[2.5rem] text-[14px] sm:w-[32.35rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[100%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
               Quero aumentar meus lucros com o TipMiner
             </a>
           </div>

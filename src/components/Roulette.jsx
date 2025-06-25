@@ -20,7 +20,7 @@ import SetaIconImgDesktop2 from "../assets/seta-2-desktop.png";
 
 function Roulette() {
   return (
-    <section className="mt-[2rem]">
+    <section className="mt-[2rem] sm:mt-[5.5rem]">
       <div className="flex flex-col justify-center items-center relative">
         <img
           src={Elipse1Img}
@@ -34,7 +34,7 @@ function Roulette() {
         />
 
         <div className="flex flex-col mt-[5rem] w-[85%]">
-          <h2 className="text-white font-[700] text-[21px] text-center">
+          <h2 className="text-white font-[700] text-[21px] sm:text-[40px] text-center">
             A TipMiner analisa milhões de <br className="sm:hidden block" />
             resultados e padrões de <br className="hidden sm:block" /> jogos,{" "}
             <br className="sm:hidden block" />
@@ -42,7 +42,7 @@ function Roulette() {
             personalizadas.
           </h2>
 
-          <div className="flex flex-row items-center mt-[5rem] sm:mt-[0rem] absolute w-[100%] sm:w-[65%] left-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 top-[13rem] justify-between overflow-hidden">
+          <div className="flex flex-row items-center mt-[5rem] sm:mt-[3rem] absolute w-[100%] sm:w-[65%] left-0 sm:left-1/2 sm:transform sm:-translate-x-1/2 top-[13rem] justify-between overflow-hidden">
             <div className="absolute left-0 top-0 h-full w-32 sm:w-[17.5rem] bg-gradient-to-r from-[#080126]/80  sm:from-[#080126] to-transparent z-10 pointer-events-none" />
             <div className="absolute right-0 top-0 h-full w-32 sm:w-[17.5rem] bg-gradient-to-l from-[#080126]/80 sm:from-[#080126] to-transparent z-10 pointer-events-none" />
             <img
@@ -75,7 +75,7 @@ function Roulette() {
               className="sm:w-[148px] sm:h-[148px] sm:block hidden"
             />
 
-            <div className="flex flex-col justify-center items-center relative h-[7rem] sm:h-[170px]">
+            <div className="flex flex-col flex-shrink-0 justify-center items-center relative h-[7rem] sm:h-[170px]">
               <img
                 src={SetaIconImg1}
                 alt=""
@@ -97,7 +97,7 @@ function Roulette() {
               <img
                 src={ImgRouletteDesktop3}
                 alt=""
-                className="sm:w-[148px] sm:h-[148px] sm:block hidden bg-white rounded-md pr-[0.3rem] py-[0.4rem]"
+                className="w-[148px] h-[148px] sm:block hidden bg-white rounded-md pr-[0.3rem] py-[0.4rem]"
               />
 
               <img
