@@ -1,5 +1,5 @@
-import DadosImg from "../assets/dados.png";
-import CoinsImg from "../assets/coins.png";
+import DadosDesktopImg from "../assets/dados-desktop.png";
+import CoinsImgDesktopImg from "../assets/coins-desktop.png";
 import LogosBets from "../assets/logos-bets.png";
 import ImgAvaliador1 from "../assets/avaliador-1.png";
 import ImgAvaliador2 from "../assets/avaliador-2.png";
@@ -7,49 +7,55 @@ import ImgAvaliador3 from "../assets/avaliador-3.png";
 
 function Info() {
   return (
-    <section className="mt-[4rem] flex justify-center items-center">
+    <section className="mt-[4rem] sm:mt-[9rem] flex justify-center items-center">
       <div className="flex flex-col justify-center items-center overflow-hidden">
-        <h2 className="text-white w-[85%] text-[24px] font-[700] text-center">
+        <h2 className="text-white w-[85%] text-[24px] sm:text-[56px] font-[700] text-center">
           Como o Tipminer funciona?
         </h2>
 
-        <div className="flex flex-col justify-center w-[85%] items-center">
-          <div className="p-[0.8px] bg-gradient-to-l from-[#5E718A] to-[#161036] rounded-2xl w-[100%] mt-[7rem]">
-            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
+        <div className="flex flex-col sm:flex-row justify-center w-[85%] sm:w-[full] items-center sm:mt-[11rem] gap-x-[1rem]">
+          <div className="p-[0.8px] bg-gradient-to-l from-[#5E718A] to-[#161036] rounded-2xl w-[100%] sm:mt-0 mt-[7rem]">
+            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] sm:w-[32.625rem] sm:h-[18.188rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
               <img
-                src={DadosImg}
+                src={DadosDesktopImg}
                 alt=""
-                className="w-[211.2px] h-[129.36px] absolute top-[-4.6rem]"
+                className="w-[211.2px] h-[129.36px] sm:w-[320px] sm:h-[196px] absolute top-[-4.6rem] sm:top-[-6.6rem]"
               />
-              <p className="text-white text-[16px] font-[400] mt-[3rem]">
-                Nossa plataforma analisa dados de jogos em tempo real,{" "}
+              <p className="text-white text-[16px] sm:text-[24px] font-[400] mt-[3rem] sm:mt-[5.5rem]">
+                Nossa plataforma analisa dados de <br />
+                jogos em tempo real,{" "}
                 <span className="font-bold">
-                  identificando padrões vencedores
+                  identificando <br />
+                  padrões vencedores
                 </span>
-                e oferecendo estratégias otimizadas.
+                e oferecendo <br />
+                estratégias otimizadas.
               </p>
             </div>
           </div>
 
-          <div className="p-[0.8px] bg-gradient-to-r from-[#5E718A] to-[#161036] rounded-2xl w-[100%] mt-[3.9rem]">
-            <div className="bg-[#161036] relative h-[12rem] backdrop-blur-md py-[1rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
+          <div className="p-[0.8px] bg-gradient-to-r from-[#5E718A] to-[#161036] rounded-2xl w-[100%] sm:mt-0 mt-[3.9rem]">
+            <div className="bg-[#161036] relative h-[12rem] sm:w-[32.625rem] sm:h-[18.188rem] backdrop-blur-md py-[1rem]  rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
               <img
-                src={CoinsImg}
+                src={CoinsImgDesktopImg}
                 alt=""
-                className="w-[211.2px] h-[129.36px] absolute top-[-4.6rem]"
+                className="w-[211.2px] h-[129.36px] sm:w-[320px] sm:h-[196px] absolute top-[-4.6rem] sm:top-[-6.6rem]"
               />
-              <p className="text-white text-[16px] font-[400] mt-[3rem]">
-                Nossa plataforma analisa dados de jogos em tempo real,{" "}
+              <p className="text-white text-[16px] sm:text-[24px] font-[400] mt-[3rem] sm:mt-[5.5rem] text-center">
+                Nossa plataforma analisa dados de <br />
+                jogos em tempo real,{" "}
                 <span className="font-bold">
-                  identificando padrões vencedores
+                  identificando <br />
+                  padrões vencedores
                 </span>
-                e oferecendo estratégias otimizadas.
+                e oferecendo <br />
+                estratégias otimizadas.
               </p>
             </div>
           </div>
         </div>
 
-        <a className="text-[white] mt-[2.5rem] text-[14px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+        <a className="text-[white] mt-[2.5rem] sm:mt-[3rem] text-[14px] sm:w-[30.5rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
           Quero aumentar meus lucros com o TipMiner
         </a>
 
@@ -145,7 +151,7 @@ function Info() {
           </div>
         </div>
 
-        <a className="text-[white] mt-[2.5rem] text-[14px] px-[1.3rem] py-[0.8rem] w-[85%] text-center rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+        <a className="text-[white] mt-[2.5rem] sm:mt-[3rem] text-[14px] sm:w-[30.5rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
           Quero aumentar meus lucros com o TipMiner
         </a>
       </div>

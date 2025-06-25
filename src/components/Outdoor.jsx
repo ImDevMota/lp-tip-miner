@@ -79,7 +79,7 @@ function Outdoor() {
           </div>
 
           {/* Botão */}
-          <a className="text-[white] mt-[2.5rem] text-[14px] sm:self-start sm:w-[29rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+          <a className="text-[white] mt-[2.5rem] text-[14px] sm:self-start sm:w-[30.5rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
             Quero aumentar meus lucros com o TipMiner
           </a>
 
@@ -145,7 +145,7 @@ function Outdoor() {
               TipMiner é a sua ferramenta essencial.
             </h2>
 
-            <a className="text-[white] mt-[2.5rem] sm:mt-[3rem] text-[14px] sm:w-[29rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+            <a className="text-[white] mt-[2.5rem] sm:mt-[3rem] text-[14px] sm:w-[30.5rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
               Quero aumentar meus lucros com o TipMiner
             </a>
           </div>

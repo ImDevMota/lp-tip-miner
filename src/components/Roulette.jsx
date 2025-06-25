@@ -1,4 +1,5 @@
 import Elipse1Img from "../assets/elipse-1.png";
+import BgRoulette from "../assets/bg-roulette.png";
 import Elipse1DesktopImg from "../assets/elipse-1-desktop.png";
 import ImgRoulette1 from "../assets/Group-1.png";
 import ImgRouletteDesktop1 from "../assets/Group-1-desktop.png";
@@ -143,12 +144,20 @@ function Roulette() {
             />
           </div>
 
-          <p className="text-white text-[16px] font-[400] text-center mt-[15rem]">
-            Utilize nosso sistema de validação de <br />
-            padrões para garantir uma vantagem nos <br />
+          <p className="text-white text-[16px] sm:text-[24px] font-[400] text-center mt-[15rem] sm:mt-[19rem]">
+            Utilize nosso sistema de validação de{" "}
+            <br className="block sm:hidden" />
+            padrões para garantir uma <br className="hidden sm:block" />{" "}
+            vantagem nos <br className="block sm:hidden" />
             jogos online, obtendo ganhos automáticos.
           </p>
         </div>
+
+        <img
+          src={BgRoulette}
+          alt=""
+          className="hidden sm:block absolute bottom-[-24rem]"
+        />
       </div>
     </section>
   );
