@@ -152,7 +152,7 @@ function Roulette() {
             jogos online, obtendo ganhos automáticos.
           </p>
         </div>
-
+        {/* verificar comprimento da img */}
         <img
           src={BgRoulette}
           alt=""

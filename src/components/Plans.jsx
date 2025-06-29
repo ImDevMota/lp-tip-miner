@@ -5,7 +5,7 @@ function Plans() {
     <section className="flex justify-center items-center">
       <div className="flex flex-col justify-center items-center w-[85%]">
         <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#261f44] rounded-2xl w-[100%] mt-[1rem]">
-          <div className="bg-[#100a2e] backdrop-blur-md py-[3.3rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
+          <div className="bg-[#100a2e] sm:flex-row backdrop-blur-md py-[3.3rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
             <h2 className="font-[700] text-[28px]">
               Escolha o melhor plano para você!!
             </h2>
@@ -25,7 +25,7 @@ function Plans() {
           transforme sua paixão em vitórias.
         </p>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col sm:flex-row">
           <div className="p-[0.8px] overflow-hidden bg-gradient-to-b from-[#ffffff60] to-[#100a2e] rounded-xl w-[100%] mt-[4rem]">
             <div className="bg-[#100a2e] backdrop-blur-md py-[3.3rem] px-[1.6rem] rounded-xl text-[white] text-center flex flex-col ">
               <div class="absolute top-[-2.5rem] w-[95%] h-[8.35rem] bg-[#dfdee4] rounded-full blur-[3.7rem] opacity-15"></div>
@@ -235,11 +235,11 @@ function Plans() {
               </div>
             </div>
           </div>
-
-          <a className="text-[white] mt-[2rem] text-[14px] px-[1.3rem] py-[0.8rem]  text-center rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
-            Quero aumentar meus lucros com o TipMiner
-          </a>
         </div>
+
+        <a className="text-[white] mt-[2rem] text-[14px] px-[1.3rem] py-[0.8rem]  text-center rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+          Quero aumentar meus lucros com o TipMiner
+        </a>
       </div>
     </section>
   );
