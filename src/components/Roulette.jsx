@@ -30,7 +30,7 @@ function Roulette() {
         <img
           src={Elipse1DesktopImg}
           alt=""
-          className="sm:block hidden absolute top-0 w-[100%]"
+          className="sm:block hidden absolute top-0 w-[100%] z-[-1]"
         />
 
         <div className="flex flex-col mt-[5rem] w-[85%]">
@@ -156,7 +156,7 @@ function Roulette() {
         <img
           src={BgRoulette}
           alt=""
-          className="hidden sm:block absolute bottom-[-24rem]"
+          className="hidden sm:block absolute bottom-[-24rem] z-[-1]"
         />
       </div>
     </section>

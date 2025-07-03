@@ -5,7 +5,7 @@ function Plans() {
   return (
     <section className="flex justify-center items-center relative">
       <div className="flex flex-col justify-center items-center w-[85%]">
-        <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#261f44] rounded-2xl w-[100%] sm:w-[80%] mt-[1rem] sm:mt-[4rem]">
+        <div className="p-[1.5px] bg-gradient-to-b from-[#5F858E] to-[#261f44] z-10  rounded-2xl w-[100%] sm:w-[80%] mt-[1rem] sm:mt-[4rem]">
           <div className="bg-[#100a2e] sm:flex-row backdrop-blur-md sm:gap-x-[8rem] py-[3.3rem] sm:py-[4rem] rounded-2xl text-[white] text-center flex flex-col justify-center items-center">
             <h2 className="font-[700] text-[28px] sm:text-start mt-[0.8rem] sm:leading-[4rem] sm:text-[56px]">
               Escolha o melhor <br />
@@ -20,10 +20,10 @@ function Plans() {
           </div>
         </div>
 
-        <h2 className="font-[700] text-white text-[21px] text-center sm:text-[32px] mt-[3.7rem]">
+        <h2 className="font-[700] text-white text-[21px] text-center sm:text-[32px] mt-[3.7rem] z-10 ">
           Não importa onde você começa, mas onde você pode chegar.
         </h2>
-        <p className="font-[400] text-white text-[18px] sm:text-[24px] text-center mt-[2rem]">
+        <p className="font-[400] text-white text-[18px] sm:text-[24px] text-center mt-[2rem] z-10 ">
           Escolha o plano TipMiner que mais se alinha com seus objetivos e
           transforme sua paixão em vitórias.
         </p>
@@ -240,7 +240,7 @@ function Plans() {
           </div>
         </div>
 
-        <a className="text-[white] mt-[2.5rem] sm:mt-[6rem] sm:mb-[2.5rem] text-[14px] sm:w-[32.35rem] sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
+        <a className="text-[white] mt-[2.5rem] sm:mt-[6rem] sm:mb-[2.5rem] text-[14px] sm:w-[32.35rem] z-10 sm:justify-center sm:flex sm:whitespace-nowrap sm:py-[1.1rem] sm:text-[20px] w-[85%] text-center px-[1.3rem] py-[0.8rem] rounded-md font-[600] bg-gradient-to-r from-[#02C1E3] to-[#0412E7]">
           Quero aumentar meus lucros com o TipMiner
         </a>
       </div>
@@ -248,7 +248,7 @@ function Plans() {
       <img
         src={BgPlans}
         alt=""
-        className="hidden sm:block absolute bottom-[-70rem]"
+        className="hidden sm:block absolute bottom-[-19rem] z-0"
       />
     </section>
   );
